@@ -15,3 +15,5 @@ app.listen(env.port, async () => {
     console.log(`server running on port ${env.port}`);
     await initDB();
 });
+
+//added a new feature to the server.js file
